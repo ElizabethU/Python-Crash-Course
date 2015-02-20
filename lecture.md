@@ -24,3 +24,17 @@ Python Crash Course
 #####Floats and Decimals
 
 #####Mixins
+
+###Fancy Bits
+
+#####List comprehensions
+
+#####Generators
+
+#####lambdas
+
+#####decorators
+
+#####@classmethod
+
+#####@staticmethod
