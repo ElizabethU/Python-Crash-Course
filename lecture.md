@@ -165,3 +165,6 @@ if we have time? (I thought Andrew is covering decorators)
 #####@classmethod
 
 #####@staticmethod
+
+
+Project Idea: http://programarcadegames.com/index.php?chapter=lab_camel&lang=en
