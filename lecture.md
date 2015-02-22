@@ -30,6 +30,7 @@ The most recent version of Python is 3.4, but the majority of people still use P
 #####super
 
 #####Floats and Decimals
+https://docs.python.org/2/tutorial/floatingpoint.html
 
 #####Mixins
 
