@@ -21,6 +21,10 @@ The most recent version of Python is 3.4, but the majority of people still use P
 
 #####A or False
 
+From http://docs.python.org/reference/expressions.html#boolean-operations:
+
+In the context of Boolean operations, and also when expressions are used by control flow statements, the following values are interpreted as false: False, None, numeric zero of all types, and empty strings and containers (including strings, tuples, lists, dictionaries, sets and frozensets). All other values are interpreted as true.
+
 ###Using pdb
 
 ###unittest
