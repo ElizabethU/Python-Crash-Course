@@ -52,7 +52,7 @@ set is a useful little data structure, it is kind of like a list but each value 
 ```python
 colours = set(['red', 'green', 'blue', 'yellow', 'orange', 'black', 'white'])
  
-# or using the newer syntax to declare the list.
+# or using the newer syntax
 input_values = {'red', 'black', 'pizza'}
  
 # get a list off the valid colours
