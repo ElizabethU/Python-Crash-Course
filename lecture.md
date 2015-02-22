@@ -130,7 +130,7 @@ next(my_generator)
 ```
 #####Dictionary Comprehensions
 
-One use for generators can be to build a dictionary, like in the first example below. This proved itself to be common enough that now there is even a new dictionary comprehension syntax for it. Both of these examples swap the keys and values of the dictionary.
+One use for generators can be to build a dictionary, like in the first example below. Both of these examples swap the keys and values of the dictionary.
 
 ```python
 teachers = {
