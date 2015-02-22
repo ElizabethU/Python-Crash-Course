@@ -61,5 +61,9 @@ or good-enough but not perfect.
 function_name, GLOBAL_CONSTANT_NAME, global_var_name, 
 instance_var_name, function_parameter_name, local_var_name.
 
+
+
 [PEP8](https://www.python.org/dev/peps/pep-0008/)
+
+
 [Google Style Guide](https://google-styleguide.googlecode.com/svn/trunk/pyguide.html)
