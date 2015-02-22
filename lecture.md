@@ -153,6 +153,12 @@ subjects = {subject: teacher for teacher, subject in teachers.items()}
 #####lambdas
 
 
+###Errors and Exceptions in Python
+
+An exception is an error that happens during execution of a program. When that error occurs Python generates an exception to prevent a program from crashing.
+
+![](http://i.imgur.com/WRuJV6rl.png )
+
 if we have time? (I thought Andrew is covering decorators)
 #####decorators
 
