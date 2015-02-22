@@ -33,7 +33,8 @@ The most recent version of Python is 3.4, but the majority of people still use P
 #####enumerate
 
 A fairly common thing to do is loop over a list while also keeping track of what index we are up to. Now we could use a count variable, but python gives us a nicer syntax for this with the enumerate() function.
-```
+
+```python
 students = ('James', 'Andrew', 'Mark')
 for i, student in enumerate(students):
     print i, student
@@ -41,7 +42,8 @@ for i, student in enumerate(students):
 #####set
 
 set is a useful little data structure, it is kind of like a list but each value in it is unique. There are some useful operations, besides creating a list of unique items, that we can do with it. For example let try some different ways of validating lists of input.
-```
+
+```python
 colours = set(['red', 'green', 'blue', 'yellow', 'orange', 'black', 'white'])
  
 # or using the newer syntax to declare the list.
@@ -68,7 +70,7 @@ if not input_values.issubset(colours):
 
 Python allows for conditional expressions, so instead of writing an if .. else with just one variable assignment in each branch, you can do the following:
 
-```
+```python
 # make number always be odd
 number = count if count % 2 else count - 1
  
@@ -79,7 +81,8 @@ print "Hello", name
 #####List comprehensions
 
 List comprehensions are supposed to replace building a list by looping and calling append. Compare the following.
-```
+
+```python
 numbers = [1, 2, 3, 4, 5, 6, 7]
 squares = []
 for num in numbers:
@@ -90,7 +93,7 @@ squares = [num * num for num in numbers]
 ```
 We can also make this more complicated, by adding in filtering or putting a conditional assignment in:
 
-```
+```pythonpython
 numbers = [1, 2, 3, 4, 5, 6, 7]
  
 # squares of all the odd numbers
@@ -104,7 +107,7 @@ mul = [num * 3 if num % 2 else num * 2 for num in numbers]
 
 Generators simplifies creation of iterators. A generator is a function that produces a sequence of results instead of a single value. A generator function is defined like a normal function, but whenever it needs to generate a value, it does so with the 'yield keyword rather than 'return'. 
 
-```
+```python
 def simple_generator_function():
     yield 1
     yield 2
@@ -116,7 +119,7 @@ for value in simple_generator_function():
 
 To get the next value from a generator, we use the same built-in function as for iterators: next()
 
-```
+```python
 my_generator = simple_generator_function()
 next(my_generator)
 # 1
@@ -129,7 +132,7 @@ next(my_generator)
 
 One use for generators can be to build a dictionary, like in the first example below. This proved itself to be common enough that now there is even a new dictionary comprehension syntax for it. Both of these examples swap the keys and values of the dictionary.
 
-```
+```python
 teachers = {
     'Andy': 'English',
     'Joan': 'Maths',
@@ -145,7 +148,7 @@ subjects = {subject: teacher for teacher, subject in teachers.items()}
 #####lambdas
 
 
-if we have time? (I thought Andrew is covering it decorators)
+if we have time? (I thought Andrew is covering decorators)
 #####decorators
 
 #####@classmethod
