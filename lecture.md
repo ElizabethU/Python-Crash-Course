@@ -70,9 +70,9 @@ if you are writing a class in Python, you to have to pass ```self``` as the firs
         if len(nonsense) % 2 == 0:
             print "Looks like that nonsense is an even number of characters"
         else:
-            print "That's an even number of letters"
+            print "That's an even number of letters"```
 
-foo = Foo()
+```foo = Foo()
 
 foo.bar('baz')```
 
