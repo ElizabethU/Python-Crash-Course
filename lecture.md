@@ -44,6 +44,9 @@ Your prompt should change and now look like this
 
 Now you're in the environment and can proceed as normal.
 
+
+###Basic syntax()
+
 #####() on everything
 
 In Python, just saying a method's name is not calling it, doing so will just return information about the method. Even if a method has no arguments, to call it, you have to say method() to call it.
