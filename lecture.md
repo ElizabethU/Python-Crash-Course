@@ -13,7 +13,7 @@ To get to an interactive shell of Python 2.7, simply type ```python```
 
 ###Installfest!
 
-######pip
+#####pip
 
 First thing, we're going to need a package manager. This is the equivalent, roughly, to homebrew. ```pip``` is the package manager we'll be using for Python.
 Type
@@ -38,9 +38,9 @@ Now that we've made a virtual environment, we have to actually enter it.
 
 ```source myenv/bin/activate```
 
-Your prompt should change and now look like 
+Your prompt should change and now look like this
 
-```(myenv)```
+```(myenv) ```
 
 Now you're in the environment and can proceed as normal.
 
