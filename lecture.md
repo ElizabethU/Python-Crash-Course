@@ -50,15 +50,21 @@ Now you're in the environment and can proceed as normal.
 
 #####() on everything
 
+In Python, just saying a method's name is not calling it, doing so will just return information about the method. Even if a method has no arguments, to call it, you have to say method() to call it.
+
 #####return everything
+
+Unlike Ruby, Python needs to be told return something. It doesn't just return the last thing in the function.
+
+#####:
+
+End control flow statements or definitions with a :
 
 #####A or False
 
 From http://docs.python.org/reference/expressions.html#boolean-operations:
 
 In the context of Boolean operations, and also when expressions are used by control flow statements, the following values are interpreted as false: False, None, numeric zero of all types, and empty strings and containers (including strings, tuples, lists, dictionaries, sets and frozensets). All other values are interpreted as true.
-
-###Using pdb
 
 ###unittest
 
@@ -192,19 +198,12 @@ subjects = {subject: teacher for teacher, subject in teachers.items()}
 
 #####lambdas
 
-
 ###Errors and Exceptions in Python
 
 An exception is an error that happens during execution of a program. When that error occurs Python generates an exception to prevent a program from crashing.
 
 ![](http://i.imgur.com/WRuJV6rl.png )
 
-if we have time? (I thought Andrew is covering decorators)
-#####decorators
-
-#####@classmethod
-
-#####@staticmethod
-
+[Python Koans](https://github.com/gregmalcolm/python_koans)
 
 Project Idea: http://programarcadegames.com/index.php?chapter=lab_camel&lang=en
