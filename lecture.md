@@ -60,6 +60,22 @@ Unlike Ruby, Python needs to be told return something. It doesn't just return th
 
 End control flow statements or definitions with a :
 
+#####self
+
+if you are writing a class in Python, you to have to pass ```self``` as the first argument to a method, but only when you are defining it, not when you are calling it:
+
+```class Foo(object):
+
+    def bar(self, nonsense):
+        if len(nonsense) % 2 == 0:
+            print "Looks like that nonsense is an even number of characters"
+        else:
+            print "That's an even number of letters"
+
+foo = Foo()
+
+foo.bar('baz')```
+
 #####A or False
 
 From http://docs.python.org/reference/expressions.html#boolean-operations:
