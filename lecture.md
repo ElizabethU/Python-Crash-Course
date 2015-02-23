@@ -28,13 +28,21 @@ easy_install is another package manager, which installs the package manager we a
 
 Up until now RVM has been handling all your dependencies. You really haven't had to do much, RVM handles it all for you. Now that you're using Python, though, you're going to use virtual environment, or ```venv```.
 
-Now that we have pip, we can just say ```pip install venv```
+Now that we have pip, we can just say ```sudo pip install venv```
 
-#####venv wrapper
+Virtual environments are like little parallel universes where we can install packages and not have them bleed out into other parts of our computer. As we may work on lots of different projects that need lots of different conflicting libraries, or even different versions of the same libraries. You don't want to install libraries outside your virtual env for the same reason you don't want a million global variables in your program.
 
-#####unittest
+To make a virtual environment, type ```venv myvenv```. The name of the environment is ```myenv```. You could put any word there, it's not a special keyword.
 
+Now that we've made a virtual environment, we have to actually enter it.
 
+```source myenv/bin/activate```
+
+Your prompt should change and now look like 
+
+```(myenv)```
+
+Now you're in the environment and can proceed as normal.
 
 ###Basic Syntax example here
 
