@@ -142,7 +142,7 @@ mul = [num * 3 if num % 2 else num * 2 for num in numbers]
 
 #####Generators
 
-Generators simplifies creation of iterators. A generator is a function that produces a sequence of results instead of a single value. A generator function is defined like a normal function, but whenever it needs to generate a value, it does so with the 'yield keyword rather than 'return'. 
+Generator simplifies creation of iterators. A generator is a function that produces a sequence of results instead of a single value. A generator function is defined like a normal function, but whenever it needs to generate a value, it does so with the 'yield keyword rather than 'return'. 
 
 ```python
 def simple_generator_function():
