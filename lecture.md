@@ -74,7 +74,8 @@ class Foo(object):
 
 foo = Foo()
 
-foo.bar('baz')```
+foo.bar('baz')
+```
 
 #####A or False
 
