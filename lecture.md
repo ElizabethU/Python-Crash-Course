@@ -234,8 +234,27 @@ subjects = dict((subject, teacher) for teacher, subject in teachers.items())
 subjects = {subject: teacher for teacher, subject in teachers.items()}
 ```
 
-#####lambdas
+#####Lambdas
 
+Python’s lambda is a tool for building functions (or more precisely, function objects). That means that Python has two tools for building functions: def and lambda.
+
+```python 
+def square_root(x): 
+    return math.sqrt(x)
+    
+square_root = lambda x: math.sqrt(x)
+```
+
+ Why do we need lambda?
+ We don’t need lambda, we could get along all right without it. But it is convenient in situations where you can pass functions to other functions to do stuff:
+ 
+ ```python
+ multiple_of_3 = filter(lambda x: x % 3 == 0, range(1,10))
+ 
+ # psssst, this could also be done as a list comprehension: 
+ [x for x in range(1,10) if x % 3 == 0]
+ ```
+ 
 ###Errors and Exceptions in Python
 
 An exception is an error that happens during execution of a program. When that error occurs Python generates an exception to prevent a program from crashing.
