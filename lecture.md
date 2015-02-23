@@ -6,10 +6,35 @@ Python Crash Course
 import this
 ```
 
-###Python 2.7 and 3.3 both exist
+###Python 2 and 3 both exist
 The most recent version of Python is 3.4, but the majority of people still use Python 2.7, because Python 3 is not backwards compatible with Python 2, and so there's a lot of labor involved in updating existing projects. Your Mac ships to with Python 2.7, it's what most people start out with, and it's what most people use in the workplace, so we'll be focus on Python 2.7 in these examples.
 
-###No more rvm, venv instead
+To get to an interactive shell of Python 2.7, simply type ```python```
+
+###Installfest!
+
+######pip
+
+First thing, we're going to need a package manager. This is the equivalent, roughly, to homebrew. ```pip``` is the package manager we'll be using for Python.
+Type
+
+```which pip``` into your commandline. If it says ```/usr/local/bin/pip``` you're good to go.
+
+If not, type ```sudo easy_install pip```
+
+easy_install is another package manager, which installs the package manager we actually want to use. It's like package manager inception.  Don't worry.
+
+#####No more rvm, venv instead
+
+Up until now RVM has been handling all your dependencies. You really haven't had to do much, RVM handles it all for you. Now that you're using Python, though, you're going to use virtual environment, or ```venv```.
+
+Now that we have pip, we can just say ```pip install venv```
+
+#####venv wrapper
+
+#####unittest
+
+
 
 ###Basic Syntax example here
 
@@ -35,6 +60,8 @@ In the context of Boolean operations, and also when expressions are used by cont
 
 #####Floats and Decimals
 https://docs.python.org/2/tutorial/floatingpoint.html
+
+TL;DR: Most times floats are awful and you want decimals.
 
 #####Mixins
 
