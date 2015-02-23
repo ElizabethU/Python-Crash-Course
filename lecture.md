@@ -86,17 +86,19 @@ In the context of Boolean operations, and also when expressions are used by cont
 ```python
 a = []
 b = 4
+c = None
 
 a or b
+a or c
 False or b
-True or b
 True or a
 b or True
+True or b
 
 if a:
     print a
-elif b:
-    print b
+elif c:
+    print c
 else:
     print "Both are falsey"
 ```
