@@ -83,6 +83,25 @@ From http://docs.python.org/reference/expressions.html#boolean-operations:
 
 In the context of Boolean operations, and also when expressions are used by control flow statements, the following values are interpreted as false: False, None, numeric zero of all types, and empty strings and containers (including strings, tuples, lists, dictionaries, sets and frozensets). All other values are interpreted as true.
 
+```python
+a = []
+b = 4
+
+a or b
+False or b
+True or b
+True or a
+b or True
+
+if a:
+    print a
+elif b:
+    print b
+else:
+    print "Both are falsey"
+```
+
+
 ###unittest
 
 ###Things that are the worst
