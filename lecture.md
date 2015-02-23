@@ -65,14 +65,13 @@ End control flow statements or definitions with a :
 if you are writing a class in Python, you to have to pass ```self``` as the first argument to a method, but only when you are defining it, not when you are calling it:
 
 ```class Foo(object):
+def bar(self, nonsense):
+    if len(nonsense) % 2 == 0:
+        print "Looks like that nonsense is an even number of characters"
+    else:
+        print "That's an even number of letters"
 
-    def bar(self, nonsense):
-        if len(nonsense) % 2 == 0:
-            print "Looks like that nonsense is an even number of characters"
-        else:
-            print "That's an even number of letters"```
-
-```foo = Foo()
+foo = Foo()
 
 foo.bar('baz')```
 
