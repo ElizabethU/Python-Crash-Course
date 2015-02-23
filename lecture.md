@@ -245,8 +245,8 @@ def square_root(x):
 square_root = lambda x: math.sqrt(x)
 ```
 
- Why do we need lambda?
- We don’t need lambda, we could get along all right without it. But it is convenient in situations where you can pass functions to other functions to do stuff:
+Why do we need lambda?
+We don’t need lambda, we could get along all right without it. But it is convenient in situations where you can pass functions to other functions. Lambda is a way to create small anonymous functions, i.e. functions without a name. These functions are throw-away functions, i.e. they are just needed where they have been created. Lambda functions are mainly used in combination with the functions filter(), map() and reduce().
  
  ```python
  multiple_of_3 = filter(lambda x: x % 3 == 0, range(1,10))
